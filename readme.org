@@ -105,7 +105,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 | BOOT     | DF(U_TAP) | DF(U_EXTRA) | DF(U_BASE) |         |       | DF(U_BASE) | DF(U_EXTRA) | DF(U_TAP) | BOOT     |
 | LGUI     | LALT      | LCTL        | LSFT       |         |       | LSFT       | LCTL        | LALT      | LGUI     |
 | U_BUTTON | ALGR      | LOCK_OPP    | LOCK_CUR   |         |       | LOCK_CUR   | LOCK_OPP    | ALGR      | U_BUTTON |
-| U_NP     | U_NP      | U_MEDIA     | U_NAV      | U_MOUSE | U_SYM | U_NUM      | U_FUN       | U_NP      | U_NP     |
+| STU      | U_NP      | U_MEDIA     | U_NAV      | U_MOUSE | U_SYM | U_NUM      | U_FUN       | U_NP      | STU      |
 
 
 *** Nav
@@ -358,7 +358,7 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 | BOOT     | DF(U_TAP) | DF(U_EXTRA) | DF(U_BASE) |       |         | DF(U_BASE) | DF(U_EXTRA) | DF(U_TAP) | BOOT     |
 | LGUI     | LALT      | LCTL        | LSFT       |       |         | LSFT       | LCTL        | LALT      | LGUI     |
 | U_BUTTON | ALGR      | LOCK_OPP    | LOCK_CUR   |       |         | LOCK_CUR   | LOCK_OPP    | ALGR      | U_BUTTON |
-| U_NP     | U_NP      | U_FUN       | U_NUM      | U_SYM | U_MOUSE | U_NAV      | U_MEDIA     | U_NP      | U_NP     |
+| STU      | U_NP      | U_FUN       | U_NUM      | U_SYM | U_MOUSE | U_NAV      | U_MEDIA     | U_NP      | STU      |
 
 
 ****** Num
@@ -739,6 +739,7 @@ Source keycode to implementation equivalent (source, QMK, ZMK, KMonad, SVG, KMK)
 | SLCK        | SCRL             | SLCK          | slck          | Scroll Lock   | SLCK          |
 | SLSH        | SLSH             | SLASH         | /             | /             | SLSH          |
 | SPC         | SPC              | SPACE         | spc           | Space         | SPC           |
+| STU         |                  | U_STU         |               | Studio Unlock |               |
 | TAB         | TAB              | TAB           | tab           | Tab           | TAB           |
 | TILD        | TILD             | TILDE         | ~             | ~             | TILD          |
 | TRNS        | TRNS             | &trans        | _             | Trans         | TRNS          |
